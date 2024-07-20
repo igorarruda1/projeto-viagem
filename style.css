@@ -1,6 +1,7 @@
 :root{
   font-family: "Open Sans", sans-serif;
   color: #333333;
+  font-size: 16px;
 }
 *{
   padding: 0;
@@ -14,7 +15,6 @@ img{
   margin: 88px auto 80px;
   width: 1120px;
 }
-
 .headline{
  color: #E1624F;
  text-transform: uppercase;
@@ -24,11 +24,11 @@ img{
 #page img + p {
   text-align: center;
   font-style: italic;
+  margin-top: 24px;
 }
-#teste{
+#pr-img{
   margin: 40px 0;
 }
-
 h1{
   color: #1B1B1B;
   font-size: 36px;
@@ -37,17 +37,11 @@ h2{
   color: #1B1B1B;
   font-size: 32px;
 }
- h3{
+h3{
   color: #1B1B1B;
   font-size: 28px;
-}
-li{
-  font-weight: bold;
-  font-size: 28px;
-  margin-left: 40px;
-}
-#page img + p {
-  margin-top: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 #destino{
   margin: 64px 0;
@@ -55,20 +49,38 @@ li{
 #destino h2 + p{
   margin-top: 8px;
 }
-p{
-  font-size: 16px;
+li{
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 40px;
 }
-span.azul{
- color: #0C51A7;
- font-weight: bold;
-}
-
- h3{
-margin-top: 20px;
-margin-bottom: 4px;
-}
-
 li + p{
   margin-bottom: 48px;
 }
-
+hr + p{
+  margin-top: 40px;
+  text-align: center;
+}
+span.azul{
+  color: #0C51A7;
+  font-weight: bold;
+}
+span.roxo{
+   color: #591B98;
+   font-weight: bold;
+}
+span.rosa{
+   color: #E5245E;
+   font-weight: bold;
+}
+span.laranja{
+   color: #E95E10;
+   font-weight: bold;
+}
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+}
+footer img{
+  vertical-align: middle ;
+}
