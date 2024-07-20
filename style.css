@@ -1,5 +1,6 @@
 :root{
   font-family: "Open Sans", sans-serif;
+  color: #333333;
 }
 *{
   padding: 0;
@@ -40,6 +41,11 @@ h2{
   color: #1B1B1B;
   font-size: 28px;
 }
+li{
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 40px;
+}
 #page img + p {
   margin-top: 24px;
 }
@@ -49,3 +55,20 @@ h2{
 #destino h2 + p{
   margin-top: 8px;
 }
+p{
+  font-size: 16px;
+}
+span.azul{
+ color: #0C51A7;
+ font-weight: bold;
+}
+
+ h3{
+margin-top: 20px;
+margin-bottom: 4px;
+}
+
+li + p{
+  margin-bottom: 48px;
+}
+
