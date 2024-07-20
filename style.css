@@ -1,0 +1,51 @@
+:root{
+  font-family: "Open Sans", sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+img{
+  border-radius: 28px;
+}
+#page{
+  box-sizing: border-box;
+  margin: 88px auto 80px;
+  width: 1120px;
+}
+
+.headline{
+ color: #E1624F;
+ text-transform: uppercase;
+ font-size: 16px;
+ font-weight: bold;
+}
+#page img + p {
+  text-align: center;
+  font-style: italic;
+}
+#teste{
+  margin: 40px 0;
+}
+
+h1{
+  color: #1B1B1B;
+  font-size: 36px;
+}
+h2{
+  color: #1B1B1B;
+  font-size: 32px;
+}
+ h3{
+  color: #1B1B1B;
+  font-size: 28px;
+}
+#page img + p {
+  margin-top: 24px;
+}
+#destino{
+  margin: 64px 0;
+}
+#destino h2 + p{
+  margin-top: 8px;
+}
