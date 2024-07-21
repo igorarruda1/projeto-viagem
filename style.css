@@ -6,19 +6,18 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 img{
   border-radius: 28px;
 }
 #page{
-  box-sizing: border-box;
   margin: 88px auto 80px;
   width: 1120px;
 }
 .headline{
  color: #E1624F;
  text-transform: uppercase;
- font-size: 16px;
  font-weight: bold;
 }
 #page img + p {
@@ -29,16 +28,16 @@ img{
 #pr-img{
   margin: 40px 0;
 }
-h1{
+h1, h2, h3{
   color: #1B1B1B;
+}
+h1{
   font-size: 36px;
 }
 h2{
-  color: #1B1B1B;
   font-size: 32px;
 }
 h3{
-  color: #1B1B1B;
   font-size: 28px;
   margin-top: 20px;
   margin-bottom: 4px;
@@ -49,7 +48,7 @@ h3{
 #destino h2 + p{
   margin-top: 8px;
 }
-li{
+img + li{
   font-weight: bold;
   font-size: 28px;
   margin-left: 40px;
@@ -57,25 +56,43 @@ li{
 li + p{
   margin-bottom: 48px;
 }
-hr + p{
-  margin-top: 40px;
+#descricao{
   text-align: center;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  background-color: #d9d9d9;
+}
+ul li{
+  list-style: inside;
+  margin-left: 4px;
+}
+ul li::marker {
+  color: #333333;
+  font-size: 14px;
+}
+.azul, .rosa, .roxo, .laranja{
+  position: relative;
+  font-weight: bold;
+  font-size: 16px;
+  left: -8px;
 }
 span.azul{
   color: #0C51A7;
-  font-weight: bold;
-}
-span.roxo{
-   color: #591B98;
-   font-weight: bold;
-}
-span.rosa{
-   color: #E5245E;
-   font-weight: bold;
 }
 span.laranja{
-   color: #E95E10;
-   font-weight: bold;
+  color: #E95E10;
+}
+span.rosa{
+  color: #E5245E;
+}
+span.roxo{
+  color: #591B98;
+}
+.temp{
+  margin-bottom:48px ;
 }
 footer{
   text-align: center;
@@ -83,10 +100,4 @@ footer{
 }
 footer img{
   vertical-align: middle ;
-}
-.divider {
-  width: 100%;
-  height: 1px;
-  margin: 36px 0;
-  background-color: #d9d9d9;
 }
